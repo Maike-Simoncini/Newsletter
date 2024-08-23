@@ -10,7 +10,6 @@ header {
 h1 {
   font-size: 20px;
   color: white;
-  padding-left: 15px;
 }
 h2 {
   font-size: 40px;
@@ -22,7 +21,7 @@ span {
   color: rgb(4, 255, 0);
 }
 span2 {
-  font-size: 70px;
+  font-size: 60px;
   color: rgb(4, 255, 0);
 }
 p {
@@ -38,18 +37,17 @@ a {
   color: rgb(4, 255, 0);
 }
 #img1 {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   align-items: center;
 }
 .social{
   text-align: center;
-  font-size: 40px;
-  padding: 10px;
+  font-size: 50px;
 }
 footer {
   color: #ffffff;
-  padding: 10px;
   text-align: center;
+  padding: 10px;
 }
