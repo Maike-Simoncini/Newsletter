@@ -1,9 +1,9 @@
 # Newsletter
 
-**Descriçã:**
+**Descrição:**
 
 Foi desenvolvido um portfolio com HTML e CSS.
 
 **Link do projeto:**
 
-https://maike-simoncini.github.io/Portfolio-Maike/
+https://maike-simoncini.github.io/Newsletter/
