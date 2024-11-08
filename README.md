@@ -1,10 +1,10 @@
 # Newsletter
 
-<a><img width="40%" src="img/newsletter.png"></a>
+<a><img width="70%" src="img/newsletter.png"></a>
 
 **Descrição:**
 
-Foi desenvolvido um portfolio com HTML e CSS.
+Foi desenvolvido um newsletter com HTML e CSS.
 
 **Link do projeto:**
 
