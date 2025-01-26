@@ -1,4 +1,4 @@
-### Newsletter
+### 📁 Newsletter
 
 <a><img width="100%" src="img/newsletter.png"></a>
 
