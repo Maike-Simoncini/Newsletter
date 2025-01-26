@@ -1,17 +1,39 @@
-### 📁 Newsletter
+# 📰 Newsletter
 
-<a><img width="100%" src="img/newsletter.png"></a>
+Uma página pessoal que apresenta informações sobre mim, incluindo minhas habilidades como desenvolvedor.
 
-### 📜 Descrição do Projeto
+## 📜 Descrição do Projeto
 
-Este projeto é uma página de Newsletter que apresenta informações sobre mim, incluindo minha formação e interesses na área de programação. A estrutura é feita em HTML e estilizada com CSS.
+Este projeto é uma página de apresentação que destaca meu trabalho como desenvolvedor Full Stack. A interface é simples e utiliza HTML, CSS e Font Awesome para ícones.
 
-### 🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - HTML
 - CSS
 - Font Awesome
 
-### 🔗 Link do projeto
+## 📁 Estrutura do Projeto
 
-https://maike-simoncini.github.io/Newsletter/
+- index.html
+- estilo.css
+- img
+
+## 🎯 Funcionalidades
+
+- Apresentação de informações pessoais e profissionais.
+- Links para redes sociais (LinkedIn e GitHub).
+
+### 📷 Demonstração
+
+<a><img width="100%" src="img/newsletter.png"></a>
+
+### 🔗 Link para o Projeto
+
+👉 [Ver Projeto ao Vivo](https://maike-simoncini.github.io/Newsletter/
+) 👈
+
+### 📄 Licença
+Este projeto é de código aberto e pode ser utilizado por qualquer pessoa.
+
+© 2023 Dev. Excelente 
+
