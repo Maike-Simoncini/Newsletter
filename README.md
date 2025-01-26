@@ -1,11 +1,17 @@
-# Newsletter
+### Newsletter
 
-<a><img width="70%" src="img/newsletter.png"></a>
+<a><img width="100%" src="img/newsletter.png"></a>
 
-**Descrição:**
+### 📜 Descrição do Projeto
 
-Foi desenvolvido um newsletter com HTML e CSS.
+Este projeto é uma página de Newsletter que apresenta informações sobre mim, incluindo minha formação e interesses na área de programação. A estrutura é feita em HTML e estilizada com CSS.
 
-**Link do projeto:**
+### 🚀 Tecnologias Utilizadas
+
+- HTML
+- CSS
+- Font Awesome
+
+### 🔗 Link do projeto
 
 https://maike-simoncini.github.io/Newsletter/
