@@ -1,53 +1,129 @@
-* {
-  box-sizing: border-box;
-  font-family: arial;  
-  text-decoration: none;
-  background-color: #000000;
+/* Define a fonte 'Inter' para todo o corpo do documento */
+body {
+ font-family: 'Inter', sans-serif;
+ background-color: #1a202c; /* bg-gray-900 */
+ color: #ffffff; /* text-white */
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 1rem; /* p-4 */
 }
-header {
-  text-align: center;
+
+/* Estilo para o container principal (newsletter-container) */
+.newsletter-container {
+ max-width: 32rem; /* max-w-md */
+ width: 100%;
+ background-color: #2d3748; /* bg-gray-800 */
+ border-radius: 0.75rem; /* rounded-xl */
+ box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); /* shadow-2xl */
+ padding: 2rem; /* p-8 */
+ transition: transform 0.3s ease-in-out; /* transition-transform duration-300 */
 }
-h1 {
-  font-size: 20px;
-  color: white;
+
+.newsletter-container:hover {
+ transform: scale(1.05); /* hover:scale-105 */
 }
-h2 {
-  font-size: 40px;
-  color: white;
-  text-align: center;
+
+/* Estilo para o título principal "Dev. Excelente" */
+.main-title {
+ font-size: 2.25rem; /* text-4xl */
+ font-weight: 800; /* font-extrabold */
+ text-align: center;
+ margin-bottom: 1.5rem; /* mb-6 */
+ color: #f7fafc; /* text-gray-100 */
 }
-span {
-  font-size: 30px;
-  color: rgb(4, 255, 0);
+
+/* Estilo para o span verde de destaque */
+.highlight-green {
+ color: #48bb78; /* text-green-400 */
 }
-span2 {
-  font-size: 60px;
-  color: rgb(4, 255, 0);
+
+/* Estilo para o cabeçalho da imagem de perfil */
+.profile-header {
+ text-align: center;
+ margin-bottom: 2rem; /* mb-8 */
 }
-p {
-  font-size: 20px;
-  color: white;
-  text-align: center;
+
+/* Estilo para a imagem de perfil */
+.profile-img {
+ width: 12rem; /* w-48 */
+ height: 12rem; /* h-48 */
+ border-radius: 9999px; /* rounded-full */
+ object-fit: cover;
+ border: 4px solid #38a169; /* border-4 border-green-500 */
+ box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+ margin-left: auto;
+ margin-right: auto; /* mx-auto */
 }
-a {
-  color: #ffffff;
-  padding: 10px;  
+
+/* Estilo para o título do nome "Sou Maike Simoncini da Silva" */
+.name-title {
+ font-size: 2.25rem; /* text-3xl */
+ font-weight: 700; /* font-bold */
+ text-align: center;
+ line-height: 1.25; /* leading-tight */
+ margin-bottom: 1rem; /* mb-4 */
+ color: #f7fafc; /* text-gray-100 */
 }
-.a2:hover, li a:hover, a:hover {
-  color: rgb(4, 255, 0);
+
+/* Estilo para o destaque do nome (Maike Simoncini da Silva) */
+.name-highlight {
+ display: block;
+ margin-top: 0.5rem; /* mt-2 */
 }
-#img1 {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  align-items: center;
+
+/* Estilo para o parágrafo de descrição */
+.description-text {
+ font-size: 1.125rem; /* text-lg */
+ text-align: center;
+ max-width: 36rem; /* max-w-xl */
+ margin-left: auto;
+ margin-right: auto; /* mx-auto */
+ margin-bottom: 2rem; /* mb-8 */
+ line-height: 1.625; /* leading-relaxed */
+ color: #d1d5db; /* text-gray-300 */
 }
-.social{
-  text-align: center;
-  font-size: 50px;
+
+/* Estilo para a seção de links sociais */
+.social-links {
+ display: flex;
+ justify-content: center;
+ gap: 1.5rem; /* space-x-6 */
+ font-size: 2.25rem; /* text-4xl */
+ margin-bottom: 3rem; /* mb-12 */
 }
-footer {
-  color: #ffffff;
-  text-align: center;
-  padding: 10px;
+
+/* Estilo para os ícones sociais individuais */
+.social-icon {
+ color: #9ca3af; /* text-gray-400 */
+ transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* transition-colors duration-300 transform */
+}
+
+.social-icon:hover {
+ color: #10b981; /* hover:text-green-500 */
+ transform: scale(1.1); /* hover:scale-110 */
+}
+
+/* Estilo para o rodapé */
+.main-footer {
+ color: #a0aec0; /* text-gray-500 */
+ font-size: 0.875rem; /* text-sm */
+ text-align: center;
+ padding-top: 1.5rem; /* pt-6 */
+ border-top: 1px solid #4a5568; /* border-t border-gray-700 */
+}
+
+/* Media Queries para Responsividade (ajustes para telas menores/maiores) */
+@media (min-width: 768px) { /* md breakpoint */
+ .main-title {
+   font-size: 3rem; /* md:text-5xl */
+ }
+ .name-title {
+   font-size: 3rem; /* md:text-5xl */
+ }
+ .description-text {
+   font-size: 1.25rem; /* md:text-xl */
+ }
 }
