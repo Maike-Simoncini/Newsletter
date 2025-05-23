@@ -8,27 +8,27 @@ body {
  flex-direction: column;
  align-items: center;
  justify-content: center;
- padding: 1rem; /* p-4 */
+ padding: 1rem; /* p-4 - padding padrão para telas pequenas */
 }
 
 /* Estilo para o container principal (newsletter-container) */
 .newsletter-container {
- max-width: 32rem; /* max-w-md */
+ max-width: 32rem; /* max-w-md para telas pequenas/médias */
  width: 100%;
  background-color: #2d3748; /* bg-gray-800 */
  border-radius: 0.75rem; /* rounded-xl */
  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); /* shadow-2xl */
- padding: 2rem; /* p-8 */
+ padding: 2rem; /* p-8 - padding padrão dentro do container */
  transition: transform 0.3s ease-in-out; /* transition-transform duration-300 */
 }
 
 .newsletter-container:hover {
- transform: scale(1.05); /* hover:scale-105 */
+ transform: scale(1.02); /* Levemente menor o hover para desktop, para não ficar exagerado */
 }
 
 /* Estilo para o título principal "Dev. Excelente" */
 .main-title {
- font-size: 2.25rem; /* text-4xl */
+ font-size: 2.25rem; /* text-4xl para telas pequenas */
  font-weight: 800; /* font-extrabold */
  text-align: center;
  margin-bottom: 1.5rem; /* mb-6 */
@@ -60,7 +60,7 @@ body {
 
 /* Estilo para o título do nome "Sou Maike Simoncini da Silva" */
 .name-title {
- font-size: 2.25rem; /* text-3xl */
+ font-size: 2.25rem; /* text-3xl para telas pequenas */
  font-weight: 700; /* font-bold */
  text-align: center;
  line-height: 1.25; /* leading-tight */
@@ -76,7 +76,7 @@ body {
 
 /* Estilo para o parágrafo de descrição */
 .description-text {
- font-size: 1.125rem; /* text-lg */
+ font-size: 1.125rem; /* text-lg para telas pequenas */
  text-align: center;
  max-width: 36rem; /* max-w-xl */
  margin-left: auto;
@@ -115,15 +115,67 @@ body {
  border-top: 1px solid #4a5568; /* border-t border-gray-700 */
 }
 
-/* Media Queries para Responsividade (ajustes para telas menores/maiores) */
+/* Media Queries para Responsividade */
+
+/* Ajustes para telas médias (tablets e alguns laptops pequenos) */
 @media (min-width: 768px) { /* md breakpoint */
+ body {
+   padding: 2rem; /* Aumenta o padding do body para telas maiores */
+ }
+ .newsletter-container {
+   max-width: 40rem; /* Aumenta a largura máxima do container */
+   padding: 3rem; /* Aumenta o padding interno do container */
+ }
  .main-title {
-   font-size: 3rem; /* md:text-5xl */
+   font-size: 3rem; /* text-5xl */
  }
  .name-title {
-   font-size: 3rem; /* md:text-5xl */
+   font-size: 3rem; /* text-5xl */
  }
  .description-text {
-   font-size: 1.25rem; /* md:text-xl */
+   font-size: 1.25rem; /* text-xl */
+ }
+ .social-links {
+   font-size: 2.5rem; /* Ícones ligeiramente maiores */
+ }
+}
+
+/* Ajustes para telas grandes (desktops) */
+@media (min-width: 1024px) { /* lg breakpoint */
+ body {
+   padding: 3rem; /* Mais padding para telas grandes */
+ }
+ .newsletter-container {
+   max-width: 48rem; /* Aumenta ainda mais a largura máxima do container */
+   padding: 4rem; /* Mais padding interno */
+ }
+ .main-title {
+   font-size: 3.5rem; /* Aumenta o tamanho do título principal */
+ }
+ .name-title {
+   font-size: 3.5rem; /* Aumenta o tamanho do título do nome */
+ }
+ .name-highlight {
+   margin-top: 1rem; /* Mais espaço acima do nome */
+ }
+ .description-text {
+   font-size: 1.375rem; /* Aumenta o tamanho do texto de descrição */
+ }
+ .social-links {
+   font-size: 3rem; /* Ícones maiores para desktop */
+   margin-bottom: 4rem; /* Mais espaço abaixo dos ícones */
+ }
+}
+
+/* Ajustes para telas muito grandes (monitores ultrawide) */
+@media (min-width: 1280px) { /* xl breakpoint */
+ .newsletter-container {
+   max-width: 56rem; /* Largura máxima ainda maior */
+ }
+ .main-title {
+   font-size: 4rem;
+ }
+ .name-title {
+   font-size: 4rem;
  }
 }
